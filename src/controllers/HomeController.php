@@ -14,7 +14,7 @@ class HomeController extends Controller {
           $this->redirect('/login');
       }
 
-  }
+   }
 
   public function index() {
     
