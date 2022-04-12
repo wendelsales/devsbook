@@ -21,10 +21,8 @@ class HomeController extends Controller
 
   public function index()
   {
-    $viewData = [
+    $this->render('home',  [
       'loggedUser' => $this->loggedUser
-    ];
-
-    $this->render('home', $viewData);
+    ]);
   }
 }
